@@ -40,7 +40,7 @@
     "smart_inv_delta_p": 0,
     "smart_inv_delta_q": 0
   },
-  "meters/site": {
+  "meters": {
     "id": 0,
     "location": "site",
     "type": "acuvim",
