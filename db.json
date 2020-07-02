@@ -65,5 +65,27 @@
       "serial_number": "AH16121967",
       "version": "3.65"
     }
+  },
+  "alerts": [
+    {
+      "data": "{\"power\":-50000,\"timeout\":\"2018-0216T21:38:09-08:00\"}",
+      "sub_device": -1,
+      "name": "DirectRealCommandTimeout"
+    },
+    {
+      "data": "{\"power\":-10000,\"timeout\":\"2019-0216T21:38:09-08:00\"}",
+      "sub_device": -1,
+      "name": "DirectRealCommandTimeout"
+    }
+  ],
+  "controller": {
+    "contactor_closed": false,
+    "grid_ok": false,
+    "micro_grid_ok": false,
+    "externally_powered": false,
+    "grid_voltage": 0,
+    "island_voltage": 0,
+    "grid_frequency": 0,
+    "island_frequency": 0
   }
 }
