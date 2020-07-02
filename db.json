@@ -1,0 +1,69 @@
+{
+  "islanding": {
+    "island_mode": "ready",
+    "nominal_frequency": 60,
+    "nominal_charge_frequency_slope": 100,
+    "nominal_voltage": 480,
+    "voltage_slope": 10
+  },
+  "system_status": {
+    "command_source": "ModbusDirect",
+    "battery_target_power": -135721.3404613525,
+    "battery_target_reactive_power": 0,
+    "nominal_full_pack_energy": 1624627,
+    "nominal_energy_remaining": 86745,
+    "max_charge_power": 429388,
+    "max_discharge_power": 420212,
+    "max_apparent_power": 648200,
+    "system_island_state": "SystemGridConnected",
+    "available_blocks": 1,
+    "battery_blocks": [
+      {
+        "id": "t17e0000142",
+        "states": ["OK", "Reachable"],
+        "package_serial_number": "T17E0000142",
+        "package_part_number": "1095371-03-A",
+        "fw_version": "508f6bce",
+        "disabled_reasons": null,
+        "faulted_reason": "",
+        "power_limited_reason": "PwrLimReason_None",
+        "num_pods_reported": 119,
+        "num_pods_faulted": 0,
+        "num_tinv_connected": 10,
+        "num_tinv_faulted": 0,
+        "opState": "Active"
+      }
+    ],
+    "load_charge_constraint": 0,
+    "max_sustained_ramp_rate": 162500000,
+    "grid_faults": [],
+    "smart_inv_delta_p": 0,
+    "smart_inv_delta_q": 0
+  },
+  "meters/site": {
+    "id": 0,
+    "location": "site",
+    "type": "acuvim",
+    "connection": {
+      "ip_address": "192.168.90.203",
+      "modbus_id": 1,
+      "https_conf": {}
+    },
+    "Cached_readings": {
+      "last_communication_time": "2018-0313T16:30:50.462652784-07:00",
+      "instant_power": 280.61086654663086,
+      "instant_reactive_power": -8731.0400390625,
+      "instant_apparent_power": 8849.943237304688,
+      "frequency": 60.060001373291016,
+      "energy_exported": 148438000,
+      "energy_imported": 148408200,
+      "instant_average_voltage": 477.1022033691406,
+      "instant_total_current": 18.604639400633367,
+      "i_a_current": 10.973670482635498,
+      "i_b_current": 10.361841917037964,
+      "i_c_current": 10.888668298721313,
+      "serial_number": "AH16121967",
+      "version": "3.65"
+    }
+  }
+}
